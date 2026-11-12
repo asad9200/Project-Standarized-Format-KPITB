@@ -1,0 +1,7 @@
+services:
+  platform:
+    build:
+      context: ../..
+      dockerfile: Docker/Dockerfiles/Dockerfile
+    env_file:
+      - ../../.env
